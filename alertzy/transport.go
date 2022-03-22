@@ -52,7 +52,6 @@ type clientHTTP struct {
 	accountKey string
 }
 
-// NewClient - create a new transport client, for example HTTP, Socket, gRPC, etc..
 func NewClient(baseURL, accountKey string) Transport {
 
 	header := http.Header{}

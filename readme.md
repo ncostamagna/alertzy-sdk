@@ -1,5 +1,6 @@
 # Project
-Alertzy SDK in golang
+Alertzy SDK in golang<br />
+https://alertzy.app/
 
 # Send Alerts
 ```go
