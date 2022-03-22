@@ -86,7 +86,9 @@ func (c *clientHTTP) Send(title, message string, priority Priority, group, image
 	q.Set("title", title)
 	q.Set("message", message)
 
-	q.Set("priority", fmt.Sprint(priority))
+	if priority != 0 {
+		q.Set("priority", fmt.Sprint(priority))
+	}
 
 	if group != "" {
 		q.Set("group", group)

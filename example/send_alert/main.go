@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	cTrans := alertzy.NewClient("https://alertzy.app", "zanov1i1fulmr56")
+	cTrans := alertzy.NewClient("https://alertzy.app", "[my account key]")
 	var err error
 
 	// simple
