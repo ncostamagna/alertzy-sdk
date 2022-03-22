@@ -21,7 +21,7 @@ type Priority int8
 const (
 	Normal Priority = iota
 	High
-	GRPC
+	Critical
 )
 
 type Color string
